@@ -1,0 +1,8 @@
+Path for lint:  /bin/ansible-lint
+Validating using ansible-lint
+[Info  - 9:23:22 PM] [ansible-lint] WARNING: PATH altered to include /usr/bin
+
+cmd 'ansible-lint --version' has the following error/warning: WARNING: PATH altered to include /usr/bin
+
+cmd 'ansible-lint --version' has the following error/warning: WARNING: PATH altered to include /usr/bin
+

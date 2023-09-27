@@ -1,0 +1,16 @@
+---
+
+- 
+  hosts: linux
+
+  tasks:
+    - name: Exploring register
+      ansible.builtin.command: hostname -s
+#        - hostname -s
+      register: hostname_output
+
+    - name: Show hostname_output
+      ansible.builtin.debug:
+        var: hostname_output
+
+...

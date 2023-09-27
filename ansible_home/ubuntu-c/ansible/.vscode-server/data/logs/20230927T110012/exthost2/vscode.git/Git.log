@@ -1,0 +1,74 @@
+2023-09-27 11:01:11.580 [info] Protokolliergrad: Info
+2023-09-27 11:01:11.580 [info] Gefundenes Git wird überprüft in: "git"
+2023-09-27 11:01:11.580 [info] Git "2.34.1" von "git" verwenden
+2023-09-27 11:01:11.580 [info] > git rev-parse --show-toplevel [69ms]
+2023-09-27 11:01:11.580 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-27 11:01:11.580 [info] > git rev-parse --show-toplevel [41ms]
+2023-09-27 11:01:11.580 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-27 11:01:11.580 [info] > git rev-parse --show-toplevel [79ms]
+2023-09-27 11:01:11.580 [info] > git rev-parse --git-dir --git-common-dir [65ms]
+2023-09-27 11:01:11.580 [info] Open repository: /home/ansible/git-repos/diveintoansible
+2023-09-27 11:01:11.580 [info] > git config --get commit.template [22ms]
+2023-09-27 11:01:11.580 [info] > git rev-parse --show-toplevel [38ms]
+2023-09-27 11:01:11.580 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-27 11:01:11.580 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [142ms]
+2023-09-27 11:01:11.580 [info] > git rev-parse --show-toplevel [128ms]
+2023-09-27 11:01:11.580 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-27 11:01:11.580 [info] > git rev-parse --show-toplevel [16ms]
+2023-09-27 11:01:11.580 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-27 11:01:11.580 [info] > git status -z -uall [499ms]
+2023-09-27 11:01:11.580 [info] > git rev-parse --show-toplevel [571ms]
+2023-09-27 11:01:11.580 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-27 11:01:11.725 [info] > git rev-parse --show-toplevel [96ms]
+2023-09-27 11:01:11.725 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-27 11:01:11.726 [info] > git config --get commit.template [111ms]
+2023-09-27 11:01:11.794 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [37ms]
+2023-09-27 11:01:11.970 [info] > git status -z -uall [158ms]
+2023-09-27 11:01:12.563 [info] > git check-ignore -v -z --stdin [282ms]
+2023-09-27 11:01:16.242 [info] > git config --local branch.master.github-pr-owner-number [557ms]
+2023-09-27 11:01:16.339 [info] > git config --get commit.template [15ms]
+2023-09-27 11:01:16.447 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [71ms]
+2023-09-27 11:01:16.769 [info] > git status -z -uall [296ms]
+2023-09-27 11:01:19.999 [info] > git rev-parse --show-toplevel [13ms]
+2023-09-27 11:01:20.000 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-27 11:01:25.963 [info] > git rev-parse --show-toplevel [10ms]
+2023-09-27 11:01:25.963 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-27 11:01:26.488 [info] > git check-ignore -v -z --stdin [11ms]
+2023-09-27 11:01:34.534 [info] > git add -A -- . [64ms]
+2023-09-27 11:01:34.645 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [92ms]
+2023-09-27 11:01:34.667 [info] > git config --get commit.template [3ms]
+2023-09-27 11:01:34.708 [info] > git config --get commit.template [21ms]
+2023-09-27 11:01:34.713 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2023-09-27 11:01:34.767 [info] > git status -z -uall [38ms]
+2023-09-27 11:01:35.477 [info] > git config --local branch.master.github-pr-owner-number [93ms]
+2023-09-27 11:01:35.627 [info] > git config --get commit.template [131ms]
+2023-09-27 11:01:35.746 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [94ms]
+2023-09-27 11:01:35.837 [info] > git config --get commit.template [17ms]
+2023-09-27 11:01:35.874 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2023-09-27 11:01:35.932 [info] > git status -z -uall [41ms]
+2023-09-27 11:01:58.204 [info] > git check-ignore -v -z --stdin [8ms]
+2023-09-27 11:06:15.138 [info] > git config --local branch.master.github-pr-owner-number [4ms]
+2023-09-27 11:06:15.175 [info] > git config --get commit.template [20ms]
+2023-09-27 11:06:15.180 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-09-27 11:06:15.229 [info] > git status -z -uall [33ms]
+2023-09-27 11:11:15.253 [info] > git config --local branch.master.github-pr-owner-number [4ms]
+2023-09-27 11:11:15.289 [info] > git config --get commit.template [19ms]
+2023-09-27 11:11:15.294 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2023-09-27 11:11:15.343 [info] > git status -z -uall [32ms]
+2023-09-27 11:16:15.367 [info] > git config --local branch.master.github-pr-owner-number [4ms]
+2023-09-27 11:16:15.403 [info] > git config --get commit.template [19ms]
+2023-09-27 11:16:15.408 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-09-27 11:16:15.456 [info] > git status -z -uall [33ms]
+2023-09-27 11:21:15.481 [info] > git config --local branch.master.github-pr-owner-number [4ms]
+2023-09-27 11:21:15.516 [info] > git config --get commit.template [18ms]
+2023-09-27 11:21:15.521 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-09-27 11:21:15.571 [info] > git status -z -uall [35ms]

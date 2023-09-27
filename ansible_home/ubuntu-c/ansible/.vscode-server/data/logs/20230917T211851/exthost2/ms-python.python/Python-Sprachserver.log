@@ -1,0 +1,8 @@
+2023-09-17 21:22:03.391 [info] [Info  - 9:22:03 PM] (65930) Pylance language server 2023.9.10 (pyright c70adefc) starting
+2023-09-17 21:22:03.392 [info] [Info  - 9:22:03 PM] (65930) Server root directory: /home/ansible/.vscode-server/extensions/ms-python.vscode-pylance-2023.9.10/dist
+2023-09-17 21:22:03.417 [info] [Info  - 9:22:03 PM] (65930) Starting service instance "git-repos"
+2023-09-17 21:22:03.673 [info] [Info  - 9:22:03 PM] (65930) Setting pythonPath for service "git-repos": "/bin/python3"
+2023-09-17 21:22:03.673 [info] [Info  - 9:22:03 PM] (65930) Setting pythonPath for service "git-repos": "/bin/python3"
+2023-09-17 21:22:03.674 [info] [Warn  - 9:22:03 PM] (65930) stubPath /home/ansible/git-repos/typings is not a valid directory.
+2023-09-17 21:22:03.829 [info] [Info  - 9:22:03 PM] (65930) Assuming Python version 3.10
+2023-09-17 21:22:05.516 [info] [Info  - 9:22:05 PM] (65930) Found 9 source files

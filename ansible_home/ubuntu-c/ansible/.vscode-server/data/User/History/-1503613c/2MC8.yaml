@@ -1,0 +1,22 @@
+---
+
+- 
+  hosts: linux
+
+  tasks: 
+    - name: Creating user with comment
+      user:
+        name: "{{ item.key }}"
+        state: present
+        comment: "{{ item.value.full_name }}"
+      with_dict:
+        babak:
+          full_name: babak Anvari
+        behnoosh:
+          full_name: behnoosh Anvari
+        bita:
+          full_name: bita Anvari
+        nosrat:
+          full_name: nosrat Anvari
+        
+...

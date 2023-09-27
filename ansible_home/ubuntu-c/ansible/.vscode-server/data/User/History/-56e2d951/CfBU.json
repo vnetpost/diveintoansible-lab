@@ -1,0 +1,7 @@
+// Geben Sie Ihre Tastenzuordnungen in dieser Datei ein, um die Standardwerte außer Kraft zu setzen.auto[]
+[
+    {
+        "key": "cmd+9",
+        "command": "-workbench.action.lastEditorInGroup"
+    }
+]

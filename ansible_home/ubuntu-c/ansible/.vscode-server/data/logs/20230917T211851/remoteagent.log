@@ -1,0 +1,149 @@
+2023-09-17 21:18:51.064 [info] 
+
+
+
+
+2023-09-17 21:18:51.091 [info] Extension host agent started.
+2023-09-17 21:18:51.276 [info] [127.0.0.1][d2bddd9b][ManagementConnection] New connection established.
+2023-09-17 21:18:51.285 [info] [127.0.0.1][4955410f][ExtensionHostConnection] New connection established.
+2023-09-17 21:18:52.073 [info] [127.0.0.1][4955410f][ExtensionHostConnection] <65682> Launched Extension Host Process.
+2023-09-17 21:19:02.130 [info] Getting Manifest... github.vscode-pull-request-github
+2023-09-17 21:19:02.147 [info] Getting Manifest... ms-ceintl.vscode-language-pack-de
+2023-09-17 21:19:02.147 [info] Getting Manifest... ms-python.python
+2023-09-17 21:19:02.552 [info] Installing extension: ms-ceintl.vscode-language-pack-de
+2023-09-17 21:19:02.579 [info] Installing extension: github.vscode-pull-request-github
+2023-09-17 21:19:02.587 [info] Installing extension: ms-python.python
+2023-09-17 21:19:06.818 [warning] Extension signature verification failed with error 'ENOENT': ms-ceintl.vscode-language-pack-de
+2023-09-17 21:19:07.095 [warning] Extension signature verification failed with error 'ENOENT': github.vscode-pull-request-github
+2023-09-17 21:19:07.716 [info] Extracted extension to file:///home/ansible/.vscode-server/extensions/ms-ceintl.vscode-language-pack-de-1.82.2023091309: ms-ceintl.vscode-language-pack-de
+2023-09-17 21:19:07.754 [info] Renamed to /home/ansible/.vscode-server/extensions/ms-ceintl.vscode-language-pack-de-1.82.2023091309
+2023-09-17 21:19:07.760 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-de
+2023-09-17 21:19:07.778 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-de
+2023-09-17 21:19:07.867 [info] Marked extension as uninstalled ms-ceintl.vscode-language-pack-de-1.81.2023081609
+2023-09-17 21:19:07.994 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-de
+2023-09-17 21:19:08.052 [info] Extracted extension to file:///home/ansible/.vscode-server/extensions/github.vscode-pull-request-github-0.72.0: github.vscode-pull-request-github
+2023-09-17 21:19:08.065 [info] Renamed to /home/ansible/.vscode-server/extensions/github.vscode-pull-request-github-0.72.0
+2023-09-17 21:19:08.072 [info] Extracting extension completed. github.vscode-pull-request-github
+2023-09-17 21:19:08.082 [info] Extension installed successfully: github.vscode-pull-request-github
+2023-09-17 21:19:08.110 [info] Marked extension as uninstalled github.vscode-pull-request-github-0.70.0
+2023-09-17 21:19:08.824 [warning] Extension signature verification failed with error 'ENOENT': ms-python.python
+2023-09-17 21:19:14.216 [info] Extracted extension to file:///home/ansible/.vscode-server/extensions/ms-python.python-2023.16.0: ms-python.python
+2023-09-17 21:19:14.234 [info] Renamed to /home/ansible/.vscode-server/extensions/ms-python.python-2023.16.0
+2023-09-17 21:19:14.256 [info] Extracting extension completed. ms-python.python
+2023-09-17 21:19:14.275 [info] Extension installed successfully: ms-python.python
+2023-09-17 21:19:14.429 [info] Marked extension as uninstalled ms-python.python-2023.14.0
+2023-09-17 21:20:10.086 [info] [127.0.0.1][d2bddd9b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-09-17 21:20:10.102 [error] Error: Throttler is disposed
+    at c.queue (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:13632)
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:15216
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-17 21:20:15.184 [info] [127.0.0.1][4955410f][ExtensionHostConnection] <65682> Extension Host Process exited with code: 0, signal: null.
+2023-09-17 21:20:15.185 [info] Cancelling previous shutdown timeout
+2023-09-17 21:20:15.185 [info] Last EH closed, waiting before shutting down
+2023-09-17 21:20:30.310 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-09-17 21:20:30.310 [info] Cancelling previous shutdown timeout
+2023-09-17 21:20:30.476 [info] [127.0.0.1][52a6c9db][ManagementConnection] New connection established.
+2023-09-17 21:20:30.480 [info] [127.0.0.1][bf5b0417][ExtensionHostConnection] New connection established.
+2023-09-17 21:20:30.495 [info] [127.0.0.1][bf5b0417][ExtensionHostConnection] <65802> Launched Extension Host Process.
+2023-09-17 21:20:33.846 [error] CodeExpectedError: Could not find pty on pty host
+    at $.P (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:32310)
+    at $.updateTitle (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:27490)
+    at T.<computed> (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:27:22750)
+    at Object.call (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:17:4907)
+    at u.s (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at u.q (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at C.w (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at C.fire (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.G (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/platform/terminal/node/ptyHostMain.js:8:27561)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-09-17 21:22:28.663 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /usr/lib/python3/dist-packages)
+2023-09-17 21:25:15.244 [info] [127.0.0.1][52a6c9db][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-09-17 21:25:15.257 [error] Error: Throttler is disposed
+    at c.queue (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:13632)
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:15216
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-17 21:25:15.277 [error] Error: Throttler is disposed
+    at c.queue (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:13632)
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:15216
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-17 21:25:15.278 [error] Error: Throttler is disposed
+    at c.queue (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:13632)
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:15216
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-17 21:25:15.278 [error] Error: Throttler is disposed
+    at c.queue (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:13632)
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:15216
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-17 21:25:15.278 [error] Error: Throttler is disposed
+    at c.queue (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:13632)
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:15216
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-17 21:25:15.278 [error] Error: Throttler is disposed
+    at c.queue (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:13632)
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:15216
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-17 21:25:15.278 [error] Error: Throttler is disposed
+    at c.queue (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:13632)
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:15216
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-17 21:25:15.279 [error] Error: Throttler is disposed
+    at c.queue (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:13632)
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:15216
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-17 21:25:15.279 [error] Error: Throttler is disposed
+    at c.queue (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:13632)
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:15216
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-17 21:25:15.280 [error] Error: Throttler is disposed
+    at c.queue (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:13632)
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:15216
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:14852
+2023-09-17 21:25:15.285 [error] Error: Throttler is disposed
+    at c.queue (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:13632)
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:15216
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:14852
+2023-09-17 21:25:15.285 [error] Error: Throttler is disposed
+    at c.queue (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:13632)
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:15216
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:14852
+2023-09-17 21:25:15.286 [error] Error: Throttler is disposed
+    at c.queue (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:13632)
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:15216
+    at /home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:70:14852
+2023-09-17 21:25:20.689 [info] [127.0.0.1][bf5b0417][ExtensionHostConnection] <65802> Extension Host Process exited with code: 0, signal: null.
+2023-09-17 21:25:20.690 [info] Cancelling previous shutdown timeout
+2023-09-17 21:25:20.691 [info] Last EH closed, waiting before shutting down
+2023-09-17 21:30:20.693 [info] Last EH closed, shutting down

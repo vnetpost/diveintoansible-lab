@@ -1,0 +1,23 @@
+2023-09-17 21:21:57.919 [info] Experiment 'pythonaacf' ist aktiv
+2023-09-17 21:21:57.919 [info] Experiment 'pythonPromptNewFormatterExt' ist aktiv
+2023-09-17 21:21:57.919 [info] Experiment 'pythonPromptNewToolsExt' ist aktiv
+2023-09-17 21:21:57.919 [info] Experiment 'pythonTestAdapter' ist aktiv
+2023-09-17 21:21:58.352 [info] Test server listening.
+2023-09-17 21:21:58.379 [info] > conda info --json
+2023-09-17 21:21:58.415 [info] Found: /bin/python3 --> /bin/python3.10
+2023-09-17 21:21:58.417 [info] Found: /bin/python3.10 --> /bin/python3.10
+2023-09-17 21:21:58.569 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2023-09-17 21:21:58.569 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2023-09-17 21:21:58.601 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-09-17 21:21:58.601 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-09-17 21:21:58.601 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-09-17 21:21:58.601 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-09-17 21:21:58.602 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-09-17 21:21:58.602 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-09-17 21:21:58.602 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-09-17 21:21:58.690 [info] > /bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2023.16.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.16.0/pythonFiles/interpreterInfo.py
+2023-09-17 21:21:58.792 [info] > /usr/bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2023.16.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.16.0/pythonFiles/interpreterInfo.py
+2023-09-17 21:21:59.054 [info] Pfad zum Python-Interpreter: /bin/python3
+2023-09-17 21:22:00.493 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-09-17 21:22:00.493 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-09-17 21:22:03.533 [info] Starten des Pylance-Sprachservers.

@@ -1,0 +1,24 @@
+2023-09-17 22:08:55.769 [info] 
+
+
+
+
+2023-09-17 22:08:55.800 [info] Extension host agent started.
+2023-09-17 22:08:56.131 [info] [127.0.0.1][1ffdea74][ManagementConnection] New connection established.
+2023-09-17 22:08:56.180 [info] [127.0.0.1][726022fa][ExtensionHostConnection] New connection established.
+2023-09-17 22:08:56.225 [info] Deleted uninstalled extension from disk ms-ceintl.vscode-language-pack-de /home/ansible/.vscode-server/extensions/ms-ceintl.vscode-language-pack-de-1.81.2023081609
+2023-09-17 22:08:56.308 [info] Deleted uninstalled extension from disk github.vscode-pull-request-github /home/ansible/.vscode-server/extensions/github.vscode-pull-request-github-0.70.0
+2023-09-17 22:08:57.219 [info] [127.0.0.1][726022fa][ExtensionHostConnection] <66736> Launched Extension Host Process.
+2023-09-17 22:08:57.541 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ansible/.vscode-server/extensions/github.vscode-pull-request-github-0.70.0.-33bbeb8d.vsctmp'
+    at i.create (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:87:30367)
+    at n (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:87:30487)
+    at t.ab (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:92:37499)
+    at t.stat (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:92:30159)
+    at async E.stat (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:92:17700)
+    at async se.pb (/home/ansible/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/out/vs/server/node/server.main.js:151:9371)
+2023-09-17 22:08:59.809 [info] Deleted uninstalled extension from disk ms-python.python /home/ansible/.vscode-server/extensions/ms-python.python-2023.14.0
+2023-09-17 22:10:04.191 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /usr/lib/python3/dist-packages)
+2023-09-17 22:13:55.815 [info] New EH opened, aborting shutdown
+2023-09-18 01:10:12.099 [info] [127.0.0.1][726022fa][ExtensionHostConnection] <66736> Extension Host Process exited with code: 0, signal: null.
+2023-09-18 01:10:12.113 [info] Last EH closed, waiting before shutting down
+2023-09-18 01:15:12.114 [info] Last EH closed, shutting down

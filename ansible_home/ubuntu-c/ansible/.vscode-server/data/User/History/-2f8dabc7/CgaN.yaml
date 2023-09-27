@@ -1,0 +1,17 @@
+---
+# YAML documents begin with the document separator ---
+
+- name: (4.1) Set fact "import_tasks_var"
+  set_fact:
+    import_tasks_var: foo
+
+- name: (4.2) Task
+  debug: 
+    msg: (4.2) Task
+
+- name: (4.3) Task
+  debug: 
+    msg: (4.3) Task
+
+# Three dots indicate the end of a YAML document
+...

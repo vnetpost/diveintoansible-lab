@@ -1,0 +1,15 @@
+---
+
+- 
+  hosts: linux
+
+  tasks:
+    - name: Create sequence directories
+      file:
+        #path: "/home/james/sequence_{{ item }}"
+        #state: absent
+        #dest: "/home/james/sequence_{{ item }}"
+        state: directory
+      with_sequence: start=1 end=100 stride=10 format=/home/james/sequence_%d
+
+...

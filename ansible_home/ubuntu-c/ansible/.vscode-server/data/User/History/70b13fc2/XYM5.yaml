@@ -1,0 +1,23 @@
+---
+
+- name: 0) include_import_tasks_playbook-mein
+  hosts: centos1 
+  tasks:
+    - debug: 
+        name: 1) 
+        msg: ===================== Testing include_tasks =====================
+    
+    - name: 2) Using include_tasks
+      include_tasks: include_tasks.yaml
+      when: include_task_var is not defined
+
+    - debug:
+        name: 3) 
+        msg: ===================== Testing import_tasks =====================
+    
+    - name: 4) Using import_tasks
+      import_tasks: import_tasks.yaml
+      when: import_tasks_var is not defined
+
+
+...

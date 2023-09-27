@@ -1,0 +1,15 @@
+2023-09-17 21:20:42.743 [warning] /home/ansible/.ssh/config: ENOENT: no such file or directory, open '/home/ansible/.ssh/config'
+2023-09-17 21:20:44.014 [info] Looking for git repository
+2023-09-17 21:20:44.014 [info] Found 0 repositories during activation
+2023-09-17 21:20:44.014 [info] Git repository found, initializing review manager and pr tree view.
+2023-09-17 21:20:44.021 [info] Registering git provider
+2023-09-17 21:20:44.021 [info] Review> Validate state in progress
+2023-09-17 21:20:44.021 [info] Review> Validating state...
+2023-09-17 21:20:44.157 [info] Found GitHub remote for folder /home/ansible/git-repos/diveintoansible
+2023-09-17 21:20:44.781 [info] Trying to use globalState for assignableUsers.
+2023-09-17 21:20:45.222 [info] GlobalState does not exist for assignableUsers.
+2023-09-17 21:20:45.366 [info] Repo state for file:///home/ansible/git-repos/diveintoansible changed.
+2023-09-17 21:20:45.366 [info] Repo file:///home/ansible/git-repos/diveintoansible has already been setup.
+2023-09-17 21:20:45.371 [info] Review> No matching pull request metadata found locally for current branch master
+2023-09-17 21:20:45.371 [info] Review> no matching pull request metadata found for current branch master
+2023-09-17 21:20:46.062 [info] Review> No matching pull request metadata found on GitHub for current branch master

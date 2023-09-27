@@ -71,8 +71,8 @@ services:
     image: spurin/diveintoansible:centos
     #image: spurin/diveintoansible:centos-sshd-2222
     ports: 
-     - ${CENTOS1_PORT_SSHD}:22
-     #- ${CENTOS1_PORT_SSHD}:2222
+     #- ${CENTOS1_PORT_SSHD}:22
+     - ${CENTOS1_PORT_SSHD}:2222
      - ${CENTOS1_PORT_TTYD}:7681
     privileged: true
     volumes:
@@ -128,7 +128,7 @@ services:
     hostname: docker
     container_name: docker
     image: spurin/diveintoansible:dind
-    privileged: yes
+    privileged: true
     volumes:
      - ${ANSIBLE_HOME}/shared:/shared
     networks:

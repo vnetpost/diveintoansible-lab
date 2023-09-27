@@ -1,0 +1,26 @@
+2023-09-21 14:21:53.566 [info] Protokolliergrad: Info
+2023-09-21 14:21:53.566 [info] Gefundenes Git wird überprüft in: "git"
+2023-09-21 14:21:53.566 [info] Git "2.34.1" von "git" verwenden
+2023-09-21 14:21:53.566 [info] > git rev-parse --show-toplevel [51ms]
+2023-09-21 14:21:53.566 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-21 14:21:53.566 [info] > git rev-parse --show-toplevel [1046ms]
+2023-09-21 14:21:53.566 [info] > git rev-parse --git-dir --git-common-dir [30ms]
+2023-09-21 14:21:53.566 [info] Open repository: /home/ansible/git-repos/diveintoansible
+2023-09-21 14:21:53.566 [info] > git config --get commit.template [109ms]
+2023-09-21 14:21:53.566 [info] > git rev-parse --show-toplevel [50ms]
+2023-09-21 14:21:53.571 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [50ms]
+2023-09-21 14:21:53.571 [info] > git rev-parse --show-toplevel [26ms]
+2023-09-21 14:21:53.571 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-21 14:21:53.571 [info] > git status -z -uall [111ms]
+2023-09-21 14:21:53.627 [info] > git config --get commit.template [198ms]
+2023-09-21 14:21:53.669 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [18ms]
+2023-09-21 14:21:54.258 [info] > git status -z -uall [569ms]
+2023-09-21 14:21:54.338 [info] > git check-ignore -v -z --stdin [86ms]
+2023-09-21 14:21:55.329 [info] > git check-ignore -v -z --stdin [34ms]
+2023-09-21 14:21:55.529 [info] > git show --textconv :Structuring Ansible Playbooks/Using Include and Import/03/include_import_tasks_playbook-meinyaml [44ms]
+2023-09-21 14:21:55.529 [info] > git show --textconv :Structuring Ansible Playbooks/Using Include and Import/03/include_import_tasks_playbook.yaml [31ms]
+2023-09-21 14:21:55.532 [info] > git ls-files --stage -- /home/ansible/git-repos/diveintoansible/Structuring Ansible Playbooks/Using Include and Import/03/include_import_tasks_playbook-meinyaml [16ms]
+2023-09-21 14:21:55.538 [info] > git ls-files --stage -- /home/ansible/git-repos/diveintoansible/Structuring Ansible Playbooks/Using Include and Import/03/include_import_tasks_playbook.yaml [13ms]
+2023-09-21 14:21:55.558 [info] > git cat-file -s 855a4c67ac7d6123f603325d9ca65f0afd237e70 [11ms]

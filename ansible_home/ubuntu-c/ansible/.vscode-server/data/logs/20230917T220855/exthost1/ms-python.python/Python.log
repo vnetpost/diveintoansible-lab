@@ -1,0 +1,7 @@
+2023-09-17 22:09:07.417 [info] Experiment 'pythonaacf' ist aktiv
+2023-09-17 22:09:07.417 [info] Experiment 'pythonPromptNewFormatterExt' ist aktiv
+2023-09-17 22:09:07.417 [info] Experiment 'pythonPromptNewToolsExt' ist aktiv
+2023-09-17 22:09:07.417 [info] Experiment 'pythonTestAdapter' ist aktiv
+2023-09-17 22:09:08.149 [info] Test server listening.
+2023-09-17 22:09:08.158 [info] Pfad zum Python-Interpreter: /bin/python3
+2023-09-17 22:09:32.620 [info] Starten des Pylance-Sprachservers.

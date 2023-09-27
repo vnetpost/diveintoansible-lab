@@ -1,0 +1,19 @@
+---
+
+- 
+  hosts: ubuntu3
+
+  tasks:
+    - name: Run a shell command and register its output as a variable
+      ansible.builtin.shell: /usr/bin/foo
+      register: foo_result
+      ignore_errors: true
+
+    - name: Show foo_result
+      ansible.builtin.debug:
+        var: foo_result
+
+    - name: Run a shell command using output of the previeus tasks
+      ansible.builtin.shell: /usr/bin/bar
+      when: foo_result.rc == 127
+...

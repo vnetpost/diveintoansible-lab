@@ -1,0 +1,135 @@
+2023-09-19 09:52:28.678 [info] 
+
+
+
+
+2023-09-19 09:52:28.711 [info] Extension host agent started.
+2023-09-19 09:52:28.873 [info] [127.0.0.1][ffc74a93][ManagementConnection] New connection established.
+2023-09-19 09:52:28.889 [info] [127.0.0.1][d48f6229][ExtensionHostConnection] New connection established.
+2023-09-19 09:52:28.943 [error] [/home/ansible/.vscode-server/extensions/ms-python.python-2023.16.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0-20230830.
+2023-09-19 09:52:28.965 [error] [/home/ansible/.vscode-server/extensions/github.vscode-pull-request-github-0.72.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0.
+2023-09-19 09:52:29.803 [info] [127.0.0.1][d48f6229][ExtensionHostConnection] <67608> Launched Extension Host Process.
+2023-09-19 09:52:30.203 [error] [/home/ansible/.vscode-server/extensions/github.vscode-pull-request-github-0.72.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0.
+2023-09-19 09:52:30.207 [error] [/home/ansible/.vscode-server/extensions/ms-python.python-2023.16.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0-20230830.
+2023-09-19 09:52:30.366 [error] [/home/ansible/.vscode-server/extensions/github.vscode-pull-request-github-0.72.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0.
+2023-09-19 09:52:30.375 [error] [/home/ansible/.vscode-server/extensions/ms-python.python-2023.16.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0-20230830.
+2023-09-19 09:52:31.099 [error] TypeError: Cannot read properties of undefined (reading 'cwd')
+    at g.I (/home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:28:941)
+    at g.reviveTerminalProcesses (/home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:28:795)
+    at g.B.<computed> (/home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:27:22689)
+    at Object.call (/home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:17:4867)
+    at l.s (/home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at l.q (/home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at k.w (/home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at k.fire (/home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.X (/home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/platform/terminal/node/ptyHostMain.js:8:27134)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-09-19 09:52:31.841 [error] [/home/ansible/.vscode-server/extensions/ms-python.python-2023.16.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0-20230830.
+2023-09-19 09:52:31.843 [error] [/home/ansible/.vscode-server/extensions/github.vscode-pull-request-github-0.72.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0.
+2023-09-19 09:52:32.444 [error] [/home/ansible/.vscode-server/extensions/github.vscode-pull-request-github-0.72.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0.
+2023-09-19 09:52:32.446 [error] [/home/ansible/.vscode-server/extensions/ms-python.python-2023.16.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0-20230830.
+2023-09-19 09:52:32.548 [error] [/home/ansible/.vscode-server/extensions/github.vscode-pull-request-github-0.72.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0.
+2023-09-19 09:52:32.550 [error] [/home/ansible/.vscode-server/extensions/ms-python.python-2023.16.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0-20230830.
+2023-09-19 09:52:32.795 [error] [/home/ansible/.vscode-server/extensions/github.vscode-pull-request-github-0.72.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0.
+2023-09-19 09:52:32.798 [error] [/home/ansible/.vscode-server/extensions/ms-python.python-2023.16.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0-20230830.
+2023-09-19 09:52:32.940 [error] [/home/ansible/.vscode-server/extensions/github.vscode-pull-request-github-0.72.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0.
+2023-09-19 09:52:32.942 [error] [/home/ansible/.vscode-server/extensions/ms-python.python-2023.16.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0-20230830.
+2023-09-19 09:52:33.037 [error] [/home/ansible/.vscode-server/extensions/github.vscode-pull-request-github-0.72.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0.
+2023-09-19 09:52:33.039 [error] [/home/ansible/.vscode-server/extensions/ms-python.python-2023.16.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0-20230830.
+2023-09-19 09:52:33.717 [error] [/home/ansible/.vscode-server/extensions/github.vscode-pull-request-github-0.72.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0.
+2023-09-19 09:52:33.719 [error] [/home/ansible/.vscode-server/extensions/ms-python.python-2023.16.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0-20230830.
+2023-09-19 09:52:34.667 [error] [/home/ansible/.vscode-server/extensions/github.vscode-pull-request-github-0.72.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0.
+2023-09-19 09:52:34.669 [error] [/home/ansible/.vscode-server/extensions/ms-python.python-2023.16.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0-20230830.
+2023-09-19 09:52:35.489 [error] [/home/ansible/.vscode-server/extensions/github.vscode-pull-request-github-0.72.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0.
+2023-09-19 09:52:35.500 [error] [/home/ansible/.vscode-server/extensions/ms-python.python-2023.16.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0-20230830.
+2023-09-19 09:52:36.288 [error] [/home/ansible/.vscode-server/extensions/github.vscode-pull-request-github-0.72.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0.
+2023-09-19 09:52:36.290 [error] [/home/ansible/.vscode-server/extensions/ms-python.python-2023.16.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0-20230830.
+2023-09-19 09:52:37.333 [error] [/home/ansible/.vscode-server/extensions/github.vscode-pull-request-github-0.72.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0.
+2023-09-19 09:52:37.349 [error] [/home/ansible/.vscode-server/extensions/ms-python.python-2023.16.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0-20230830.
+2023-09-19 09:52:37.371 [info] Getting Manifest... github.copilot
+2023-09-19 09:52:38.112 [error] [/home/ansible/.vscode-server/extensions/github.vscode-pull-request-github-0.72.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0.
+2023-09-19 09:52:38.127 [error] [/home/ansible/.vscode-server/extensions/ms-python.python-2023.16.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0-20230830.
+2023-09-19 09:52:38.568 [info] Installing extension: github.copilot
+2023-09-19 09:52:38.908 [error] [/home/ansible/.vscode-server/extensions/github.vscode-pull-request-github-0.72.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0.
+2023-09-19 09:52:38.910 [error] [/home/ansible/.vscode-server/extensions/ms-python.python-2023.16.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0-20230830.
+2023-09-19 09:52:39.361 [error] [/home/ansible/.vscode-server/extensions/github.vscode-pull-request-github-0.72.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0.
+2023-09-19 09:52:39.363 [error] [/home/ansible/.vscode-server/extensions/ms-python.python-2023.16.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0-20230830.
+2023-09-19 09:52:39.835 [error] [/home/ansible/.vscode-server/extensions/github.vscode-pull-request-github-0.72.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0.
+2023-09-19 09:52:39.843 [error] [/home/ansible/.vscode-server/extensions/ms-python.python-2023.16.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0-20230830.
+2023-09-19 09:52:40.147 [error] [/home/ansible/.vscode-server/extensions/github.vscode-pull-request-github-0.72.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0.
+2023-09-19 09:52:40.151 [error] [/home/ansible/.vscode-server/extensions/ms-python.python-2023.16.0]: Extension is not compatible with Code 1.81.1. Extension requires: ^1.82.0-20230830.
+2023-09-19 09:52:41.847 [warning] Extension signature verification failed with error 'ENOENT': github.copilot
+2023-09-19 09:52:42.691 [info] Extracted extension to file:///home/ansible/.vscode-server/extensions/github.copilot-1.112.420: github.copilot
+2023-09-19 09:52:42.744 [info] Renamed to /home/ansible/.vscode-server/extensions/github.copilot-1.112.420
+2023-09-19 09:52:42.747 [info] Extracting extension completed. github.copilot
+2023-09-19 09:52:42.758 [info] Extension installed successfully: github.copilot
+2023-09-19 09:52:42.767 [info] Marked extension as uninstalled github.copilot-1.111.404
+2023-09-19 09:53:29.809 [info] [127.0.0.1][d48f6229][ExtensionHostConnection] The client has reconnected.
+2023-09-19 09:53:38.553 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-09-19 09:53:38.553 [info] Cancelling previous shutdown timeout
+2023-09-19 09:53:38.623 [info] [127.0.0.1][ffc74a93][ManagementConnection] The client has reconnected.
+2023-09-19 09:53:38.640 [info] [127.0.0.1][d48f6229][ExtensionHostConnection] The client has reconnected.
+2023-09-19 09:54:04.592 [info] [127.0.0.1][ffc74a93][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-09-19 09:54:04.597 [error] Error: Throttler is disposed
+    at r.queue (/home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-09-19 09:54:04.599 [error] Error: Throttler is disposed
+    at r.queue (/home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-09-19 09:54:04.599 [error] Error: Throttler is disposed
+    at r.queue (/home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-09-19 09:54:04.599 [error] Error: Throttler is disposed
+    at r.queue (/home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-09-19 09:54:04.601 [error] Error: Throttler is disposed
+    at r.queue (/home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-09-19 09:54:04.601 [error] Error: Throttler is disposed
+    at r.queue (/home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-09-19 09:54:04.602 [error] Error: Throttler is disposed
+    at r.queue (/home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-09-19 09:54:04.602 [error] Error: Throttler is disposed
+    at r.queue (/home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:13612)
+    at /home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:15183
+    at /home/ansible/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/out/vs/server/node/server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+2023-09-19 09:54:04.721 [info] [127.0.0.1][d48f6229][ExtensionHostConnection] <67608> Extension Host Process exited with code: 0, signal: null.
+2023-09-19 09:54:04.721 [info] Cancelling previous shutdown timeout
+2023-09-19 09:54:04.721 [info] Last EH closed, waiting before shutting down
+2023-09-19 09:59:04.723 [info] Last EH closed, shutting down

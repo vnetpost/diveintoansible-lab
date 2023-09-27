@@ -1,0 +1,15 @@
+{
+    "workbench.colorTheme": "Kimbie Dark",
+    "workbench.iconTheme": "vscode-icons",
+    "files.autoSave": "afterDelay",
+    "git.enableSmartCommit": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "git.autofetch": true,
+    "redhat.telemetry.enabled": true,
+    "settingsSync.ignoredSettings": [
+        "-ansible.ansible.path",
+        "-ansible.python.interpreterPath",
+        "-ansible.validation.lint.path"
+    ],
+    "editor.accessibilitySupport": "on"
+}

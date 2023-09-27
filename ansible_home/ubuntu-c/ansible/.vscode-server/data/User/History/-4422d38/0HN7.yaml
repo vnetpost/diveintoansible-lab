@@ -1,0 +1,25 @@
+---
+
+- 
+  hosts: linux
+
+  tasks:
+    - name: Creating Users
+      user:
+        name: "{{ item.1 }}"
+        comment: "{{ item.1 }} {{ item.0.surname }}"
+        #state: present
+        state: absent
+      with_subelements:
+        - family:
+            surname: Anvari
+            members:
+              - nosrat
+              - pooran
+              - bahareh
+              - babak
+              - bita
+              - behnoosh
+        - members
+
+...

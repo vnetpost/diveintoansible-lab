@@ -1,0 +1,36 @@
+---
+
+- 
+  hosts: linux
+
+  tasks:
+    - name: Creating Users
+      user:
+        name: "{{ item.1 }}"
+        comment: "{{ item.1 | title }} {{ item.0.surname }}"
+        #state: absent
+
+      with_subelements:
+        -
+          - surname: Spurin
+            members:
+              - james
+              - harley
+              - lily
+              - anwen
+          - surname: Darlington
+            members:
+              - freya
+          - surname: Jalba
+            members:
+              - ana
+          - surname: Angne
+            members:
+              - abhishek
+          - surname: Mohmood
+            members:
+              - sara
+            
+        - members
+
+...

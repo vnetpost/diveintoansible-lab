@@ -1,0 +1,7 @@
+{
+    "redhat.telemetry.enabled": false,
+    "editor.accessibilitySupport": "off",
+    "remote.SSH.remotePlatform": {
+        "ubuntu-c": "linux"
+    }
+}

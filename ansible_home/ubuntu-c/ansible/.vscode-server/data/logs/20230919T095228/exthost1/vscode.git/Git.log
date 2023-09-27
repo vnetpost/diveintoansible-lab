@@ -1,0 +1,30 @@
+2023-09-19 09:52:38.459 [info] Protokolliergrad: Info
+2023-09-19 09:52:38.459 [info] Gefundenes Git wird überprüft in: "git"
+2023-09-19 09:52:38.459 [info] Git "2.34.1" von "git" verwenden
+2023-09-19 09:52:38.459 [info] > git rev-parse --show-toplevel [1326ms]
+2023-09-19 09:52:38.459 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-19 09:52:38.459 [info] > git rev-parse --show-toplevel [41ms]
+2023-09-19 09:52:38.459 [info] > git rev-parse --git-dir --git-common-dir [20ms]
+2023-09-19 09:52:38.459 [info] Open repository: /home/ansible/git-repos/diveintoansible
+2023-09-19 09:52:38.505 [info] > git config --get commit.template [75ms]
+2023-09-19 09:52:38.534 [info] > git rev-parse --show-toplevel [44ms]
+2023-09-19 09:52:38.565 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [33ms]
+2023-09-19 09:52:38.717 [info] > git rev-parse --show-toplevel [22ms]
+2023-09-19 09:52:38.717 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-09-19 09:52:38.769 [info] > git status -z -uall [156ms]
+2023-09-19 09:52:39.403 [info] > git config --get commit.template [570ms]
+2023-09-19 09:52:39.441 [info] > git check-ignore -v -z --stdin [119ms]
+2023-09-19 09:52:39.479 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [39ms]
+2023-09-19 09:52:39.675 [info] > git status -z -uall [169ms]
+2023-09-19 09:52:40.620 [info] > git show --textconv :Ansible Playbooks, Deep Dive/Looping/21/until_playbook.yaml [82ms]
+2023-09-19 09:52:40.620 [info] > git show --textconv :Ansible Playbooks, Deep Dive/Asynchronous, Serial, Parallel/02/slow_playbook.yaml [61ms]
+2023-09-19 09:52:40.621 [info] > git ls-files --stage -- /home/ansible/git-repos/diveintoansible/Ansible Playbooks, Deep Dive/Asynchronous, Serial, Parallel/02/slow_playbook.yaml [30ms]
+2023-09-19 09:52:40.650 [info] > git ls-files --stage -- /home/ansible/git-repos/diveintoansible/Ansible Playbooks, Deep Dive/Looping/21/until_playbook.yaml [73ms]
+2023-09-19 09:52:40.698 [info] > git check-ignore -v -z --stdin [87ms]
+2023-09-19 09:52:40.701 [info] > git cat-file -s 16732de5c9ec1f799222056e7cff3075203c0a5b [53ms]
+2023-09-19 09:52:40.706 [info] > git cat-file -s d4f032b9e751ad0dc6b7b956d2ba9c6c7578c798 [32ms]
+2023-09-19 09:53:38.780 [info] > git rev-parse --show-toplevel [29ms]
+2023-09-19 09:53:38.780 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

@@ -1,0 +1,32 @@
+---
+
+- 
+  hosts: linux
+
+  tasks:
+    - name: Exploring register
+      ansible.builtin.command: hostname -s
+      when:
+        - ansible_distribution == "CentOS"
+        - ansible_distribution_major_version | int >= 8
+      register: command_register
+
+    - name: Show register
+      ansible.builtin.debug:
+        #msg: "command_register: {{ command_register }}"
+        var: command_register
+    
+    - name: Install patch when changed
+      ansible.builtin.yum:
+        name:
+          - patch
+        state: present
+      when: command_register.changed == True
+
+    - name: Install patch when skipped
+      ansible.builtin.apt:
+        name: 
+          - patch 
+        state: present
+      when: command_register.skipped == True
+...

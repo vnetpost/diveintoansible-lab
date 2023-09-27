@@ -1,0 +1,20 @@
+---
+
+-
+  hosts: centos1
+
+  tasks:
+    - name: set fact
+      set_fact:
+        fact: foo
+
+    - name: show fact with msg
+      debug:
+        msg: "{{ fact }}"
+      when: fact is defined 
+         
+    - name: show fact with var
+      debug: 
+        var: fact
+      when: fact is defined
+...

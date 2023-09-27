@@ -1,0 +1,27 @@
+// Geben Sie Ihre Tastenzuordnungen in dieser Datei ein, um die Standardwerte außer Kraft zu setzen.auto[]
+[
+    {
+        "key": "cmd+9",
+        "command": "-workbench.action.lastEditorInGroup"
+    },
+    {
+        "key": "alt+8",
+        "command": "-editor.foldLevel8",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+7",
+        "command": "-editor.foldLevel7",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+5",
+        "command": "-editor.foldLevel5",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+6",
+        "command": "-editor.foldLevel6",
+        "when": "editorTextFocus"
+    }
+]

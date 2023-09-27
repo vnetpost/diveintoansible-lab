@@ -1,0 +1,13 @@
+2023-09-14 16:08:25.667 [warning] /home/ansible/.ssh/config: ENOENT: no such file or directory, open '/home/ansible/.ssh/config'
+2023-09-14 16:08:25.772 [info] Looking for git repository
+2023-09-14 16:08:25.772 [info] Found 0 repositories during activation
+2023-09-14 16:08:25.772 [info] Git repository found, initializing review manager and pr tree view.
+2023-09-14 16:08:25.785 [info] Registering git provider
+2023-09-14 16:08:25.785 [info] Review> Validate state in progress
+2023-09-14 16:08:25.785 [info] Review> Validating state...
+2023-09-14 16:08:25.807 [info] Found GitHub remote for folder /home/ansible/git-repos/diveintoansible
+2023-09-14 16:08:26.582 [info] Repo state for file:///home/ansible/git-repos/diveintoansible changed.
+2023-09-14 16:08:26.582 [info] Repo file:///home/ansible/git-repos/diveintoansible has already been setup.
+2023-09-14 16:08:26.586 [info] Review> No matching pull request metadata found locally for current branch master
+2023-09-14 16:08:26.586 [info] Review> no matching pull request metadata found for current branch master
+2023-09-14 16:08:27.214 [info] Review> No matching pull request metadata found on GitHub for current branch master
